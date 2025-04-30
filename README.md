@@ -1,4 +1,4 @@
-# cricket-stats-react-springboot
+# cricket-stats-react-springboot-jpa
 
 # 🏏 Cricket Stats App (React + Spring Boot + MySQL)
 
