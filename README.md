@@ -1,6 +1,6 @@
 # cricket-stats-react-springboot-jpa
 
-# 🏏 Cricket Stats App (React + Spring Boot + MySQL)
+# 🏏 Cricket Stats App (React + Spring Boot + JPA + MySQL)
 
 A full-stack **Cricket Statistics Management** application built using **React** for the frontend and **Spring Boot** with **MySQL** for the backend. This project allows users to manage and view detailed cricket player statistics including matches, runs, wickets, averages, and more.
 
