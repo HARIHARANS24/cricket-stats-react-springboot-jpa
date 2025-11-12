@@ -11,7 +11,7 @@ This system enables users (e.g., admins or analysts) to:
 - Interact via a clean, responsive UI 
 
 ## 🚀 Features 
-
+ 
 - 🧑‍💼 **Player Management**: Add, view, update, and delete cricket player profiles
 - 📊 **Stat Tracking**: Store runs, wickets, matches played, batting average, etc.
 - 🔍 **Search/Filter**: Filter players by name, country, or stats
