@@ -38,56 +38,62 @@ This system enables users (e.g., admins or analysts) to:
 ## 📁 Project Structure
 
 ```
-cricket-stats-app/
-├── 📂 Frontend/
-│   ├── 📂 src/
-│   │   ├── 📂 components/
-│   │   │   ├── 📄 CreateCricinfoComponent.jsx
-│   │   │   ├── 📄 FooterComponent.jsx
-│   │   │   ├── 📄 HeaderComponent.js
-│   │   │   ├── 📄 ListCricinfoComponent.jsx
-│   │   │   ├── 📄 Login.jsx
-│   │   │   ├── 📄 Register.jsx
-│   │   │   ├── 📄 UpdateCricinfoComponent.jsx
-│   │   │   └── 📄 ViewCricinfoComponent.jsx
-│   │   ├── 📂 services/
-│   │   │   └── 📄 CricinfoService.js
-│   │   ├── 📄 App.js
-│   │   ├── 📄 App.css
-│   │   ├── 📄 index.js
-│   │   ├── 📄 index.css
-│   │   ├── 📄 logo.svg
-│   │   ├── 📄 serviceWorker.js
-│   │   └── 📄 setupTests.js
-│   ├── 📂 public/
-│   └── 📄 package.json
-│
-├── 📂 Backend/
-│   ├── 📂 src/
-│   │   ├── 📂 main/
-│   │   │   ├── 📂 java/
-│   │   │   │   └── 📂 com/
-│   │   │   │       └── 📂 example/
-│   │   │   │           └── 📂 demo/
-│   │   │   │               ├── 📂 Controller/
-│   │   │   │               │   └── 📄 CricController.java
-│   │   │   │               ├── 📂 Model/
-│   │   │   │               │   └── 📄 Cricinfo.java
-│   │   │   │               ├── 📂 Repository/
-│   │   │   │               │   └── 📄 CricinfoRepository.java
-│   │   │   │               ├── 📂 Service/
-│   │   │   │               │   └── 📄 CricService.java
-│   │   │   │               ├── 📂 Exception/
-│   │   │   │               └── 📂 Demo/
-│   │   │   └── 📂 resources/
-│   │   │       └── 📄 application.properties
-│   │   └── 📂 test/
-│   ├── 📄 pom.xml
-│   ├── 📄 mvnw
-│   └── 📄 mvnw.cmd
-│
-├── 📄 README.md
-└── 📄 LICENSE.txt
+Directory structure:
+└── hariharans24-cricket-stats-react-springboot-jpa/
+    ├── README.md
+    ├── LICENSE.txt
+    ├── Backend/
+    │   ├── mvnw
+    │   ├── mvnw.cmd
+    │   ├── pom.xml
+    │   └── src/
+    │       ├── main/
+    │       │   ├── java/
+    │       │   │   └── com/
+    │       │   │       └── example/
+    │       │   │           └── demo/
+    │       │   │               ├── Controller/
+    │       │   │               │   └── CricController.java
+    │       │   │               ├── Demo/
+    │       │   │               │   └── CricinfoApplication.java
+    │       │   │               ├── Exception/
+    │       │   │               │   └── CricinfoNotFoundException.java
+    │       │   │               ├── Model/
+    │       │   │               │   └── Cricinfo.java
+    │       │   │               ├── Repository/
+    │       │   │               │   └── CricinfoRepository.java
+    │       │   │               └── Service/
+    │       │   │                   └── CricService.java
+    │       │   └── resources/
+    │       │       └── application.properties
+    │       └── test/
+    │           └── java/
+    │               └── com/
+    │                   └── example/
+    │                       └── demo/
+    │                           └── CricinfoApplicationTests.java
+    └── Frontend/
+        ├── package.json
+        ├── public/
+        │   └── index.html
+        └── src/
+            ├── App.css
+            ├── App.js
+            ├── index.css
+            ├── index.js
+            ├── serviceWorker.js
+            ├── setupTests.js
+            ├── components/
+            │   ├── CreateCricinfoComponent.jsx
+            │   ├── FooterComponent.jsx
+            │   ├── HeaderComponent.js
+            │   ├── ListCricinfoComponent.jsx
+            │   ├── Login.jsx
+            │   ├── Register.jsx
+            │   ├── UpdateCricinfoComponent.jsx
+            │   └── ViewCricinfoComponent.jsx
+            └── services/
+                └── CricinfoService.js
 ```
 
 ## 🚀 Getting Started
